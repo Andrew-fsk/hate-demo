@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Montserrat", sans-serif; }
+
+ul {
+  list-style: none; }
+
+.sample {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+  .sample .left-sample,
+  .sample .right-sample {
+    width: 50%; }
+    .sample .left-sample img,
+    .sample .right-sample img {
+      max-width: 100%; }
+
+footer .container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  padding: 25px 0; }
+  footer .container .collum {
+    width: 25%; }
+  footer .container .catalog,
+  footer .container .menu,
+  footer .container .phone,
+  footer .container .adress,
+  footer .container .info {
+    padding-left: 15px;
+    padding-right: 20px;
+    font-size: 15px;
+    color: #171717; }
+    footer .container .catalog .title,
+    footer .container .menu .title,
+    footer .container .phone .title,
+    footer .container .adress .title,
+    footer .container .info .title {
+      font-weight: 600;
+      margin-bottom: 15px;
+      font-size: 17px; }
+    footer .container .catalog ul li,
+    footer .container .menu ul li,
+    footer .container .phone ul li,
+    footer .container .adress ul li,
+    footer .container .info ul li {
+      margin-bottom: 10px; }
+      footer .container .catalog ul li a,
+      footer .container .menu ul li a,
+      footer .container .phone ul li a,
+      footer .container .adress ul li a,
+      footer .container .info ul li a {
+        color: #171717;
+        text-decoration: none;
+        position: relative; }
+        footer .container .catalog ul li a:after,
+        footer .container .menu ul li a:after,
+        footer .container .phone ul li a:after,
+        footer .container .adress ul li a:after,
+        footer .container .info ul li a:after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: -2px;
+          height: 2px;
+          width: 100%;
+          background-color: #171717;
+          opacity: 0;
+          transition: opacity 0.3s; }
+        footer .container .catalog ul li a:hover:after,
+        footer .container .menu ul li a:hover:after,
+        footer .container .phone ul li a:hover:after,
+        footer .container .adress ul li a:hover:after,
+        footer .container .info ul li a:hover:after {
+          opacity: 1; }
+  footer .container .contacts ul li a,
+  footer .container .info ul li a {
+    font-size: 14px; }
+  footer .container .phone,
+  footer .container .work-time {
+    margin-bottom: 40px; }
+
+/*# sourceMappingURL=style.css.map */
